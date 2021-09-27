@@ -17,6 +17,12 @@
         },
         "operatingSystemType": "Linux"
     },
+    "cli": {
+      "packageRepository": "PyPI",
+      "package": "biosimulators-libsbmlsim",
+      "command": "biosimulators-libsbmlsim",
+      "installationInstructions": "https://docs.biosimulators.org/Biosimulators_LibSBMLSim/installation.html"
+    },
     "pythonApi": {
       "package": "biosimulators-libsbmlsim",
       "module": "biosimulators_libsbmlsim",
