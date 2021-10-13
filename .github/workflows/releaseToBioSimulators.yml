@@ -114,7 +114,7 @@ jobs:
           sudo chown ${UID} ./biosimulators/coverage.xml
 
       - name: Upload the coverage report to Codecov
-        uses: codecov/codecov-action@v1.0.3
+        uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           flags: unittests
