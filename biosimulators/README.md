@@ -2,6 +2,7 @@
 [![PyPI](https://img.shields.io/pypi/v/biosimulators_libsbmlsim)](https://pypi.org/project/biosimulators_libsbmlsim/)
 [![CI status](https://github.com/biosimulators/Biosimulators_LibSBMLSim/workflows/Continuous%20integration/badge.svg)](https://github.com/biosimulators/Biosimulators_LibSBMLSim/actions?query=workflow%3A%22Continuous+integration%22)
 [![Test coverage](https://codecov.io/gh/biosimulators/Biosimulators_LibSBMLSim/branch/dev/graph/badge.svg)](https://codecov.io/gh/biosimulators/Biosimulators_LibSBMLSim)
+[![All Contributors](https://img.shields.io/github/all-contributors/biosimulators/Biosimulators_LibSBMLSim/HEAD)](#contributors-)
 
 # BioSimulators-LibSBMLSim
 BioSimulators-compliant command-line interface to the [LibSBMLSim](https://fun.bio.keio.ac.jp/software/libsbmlsim/) simulation program.
@@ -69,7 +70,7 @@ Documentation is available at https://docs.biosimulators.org/Biosimulators_LibSB
 This package is released under the [MIT license](LICENSE).
 
 ## Development team
-This package was developed by the [Center for Reproducible Biomedical Modeling](http://reproduciblebiomodels.org) and the [Karr Lab](https://www.karrlab.org) at the Icahn School of Medicine at Mount Sinai in New York.
+This package was developed by the [Center for Reproducible Biomedical Modeling](http://reproduciblebiomodels.org) and the [Karr Lab](https://www.karrlab.org) at the Icahn School of Medicine at Mount Sinai in New York with assistance from the contributors listed [here](CONTRIBUTORS.md).
 
 ## Questions and comments
 Please contact the [BioSimulators Team](mailto:info@biosimulators.org) with any questions or comments.
