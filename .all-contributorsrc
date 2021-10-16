@@ -1,6 +1,6 @@
 {
   "files": [
-    "CONTRIBUTORS.md"
+    "biosimulators/CONTRIBUTORS.md"
   ],
   "imageSize": 100,
   "commit": false,
@@ -13,6 +13,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "funasoul",
+      "name": "Akira Funahashi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1589676?v=4",
+      "profile": "https://fun.bio.keio.ac.jp/",
+      "contributions": [
+        "tool"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -20,5 +29,6 @@
   "projectOwner": "biosimulators",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "none"
 }

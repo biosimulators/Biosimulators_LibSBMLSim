@@ -7,7 +7,8 @@ BioSimulators-LibSBMLSim was developed with help from the following people:
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://www.karrlab.org"><img src="https://avatars.githubusercontent.com/u/2848297?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jonathan Karr</b></sub></a><br /><a href="https://github.com/biosimulators/Biosimulators_utils/commits?author=jonrkarr" title="Code">💻</a></td>
+    <td align="center"><a href="https://fun.bio.keio.ac.jp/"><img src="https://avatars.githubusercontent.com/u/1589676?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akira Funahashi</b></sub></a><br /><a href="#tool-funasoul" title="Tools">🔧</a></td>
+    <td align="center"><a href="https://www.karrlab.org"><img src="https://avatars.githubusercontent.com/u/2848297?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jonathan Karr</b></sub></a><br /><a href="https://github.com/biosimulators/Biosimulators_LibSBMLSim/commits?author=jonrkarr" title="Code">💻</a></td>
   </tr>
 </table>
 
