@@ -99,7 +99,7 @@
             "title": "LibSBMLSim: a reference implementation of fully functional SBML simulator",
             "authors": "Hiromu Takizawa, Kazushige Nakamura, Akito Tabira, Yoichi Chikahara, Tatsuhiro Matsui, Noriko Hiroi & Akira Funahashi",
             "journal": "Bioinformatics",
-            "volume": 29,
+            "volume": "29",
             "issue": "11",
             "year": 2013,
             "pages": "1474-1476",
