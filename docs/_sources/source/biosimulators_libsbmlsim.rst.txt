@@ -59,7 +59,7 @@ biosimulators_libsbmlsim.exec_sed_task(task, variables, preprocessed_task=None, 
       variables (list of Variable) -- variables that should be
       recorded
 
-      preprocessed_task (object, optional) -- preprocessed information
+      preprocessed_task (dict, optional) -- preprocessed information
       about the task, including possible model changes and variables.
       This can be used to avoid repeatedly executing the same
       initialization for repeated calls to this method.
@@ -131,7 +131,7 @@ biosimulators_libsbmlsim.preprocess_sed_task(task, variables, config=None)
       preprocessed information about the task
 
    Return type:
-      "object"
+      "dict"
 
 Submodules
 
@@ -215,7 +215,7 @@ biosimulators_libsbmlsim.core.exec_sed_task(task, variables, preprocessed_task=N
       variables (list of Variable) -- variables that should be
       recorded
 
-      preprocessed_task (object, optional) -- preprocessed information
+      preprocessed_task (dict, optional) -- preprocessed information
       about the task, including possible model changes and variables.
       This can be used to avoid repeatedly executing the same
       initialization for repeated calls to this method.
@@ -277,7 +277,7 @@ biosimulators_libsbmlsim.core.preprocess_sed_task(task, variables, config=None)
       preprocessed information about the task
 
    Return type:
-      "object"
+      "dict"
 
 biosimulators_libsbmlsim.data_model module
 
