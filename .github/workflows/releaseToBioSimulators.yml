@@ -233,7 +233,7 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         run: |
           REVISION=$(git rev-parse HEAD)
-          IMAGE_DIGEST=$(docker image inspect ghcr.io/biosimulators/biosimulators_libsbmlsim/libsbmlsim:${{ steps.get-docker-image-tag.outputs.simulatorVersion }} | jq -r '.[0].RepoDigests[0]' | cut -d "@" -f 2-)
+          IMAGE_DIGEST=$(docker image inspect ghcr.io/biosimulators/biosimulators_libsbmlsim/libsbmlsim:${{ steps.get-version-number.outputs.simulatorVersion }} | jq -r '.[0].RepoDigests[0]' | cut -d "@" -f 2-)
           curl \
             -X POST \
             -u ${{ secrets.BIOSIMULATORS_GH_USERNAME }}:${{ secrets.BIOSIMULATORS_GH_TOKEN }} \
