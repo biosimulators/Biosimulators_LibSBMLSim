@@ -296,7 +296,7 @@ def exec_sed_task(task, variables, preprocessed_task=None, log=None, config=None
 
     # log action
     if config.LOG:
-        log.algorithm = preprocessed_task['simulation']['algorithm_kisao_id'],
+        log.algorithm = preprocessed_task['simulation']['algorithm_kisao_id']
         log.simulator_details = {
             'method': "simulateSBMLFromFile",
             'arguments': {

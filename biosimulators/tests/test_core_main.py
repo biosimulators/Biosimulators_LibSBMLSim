@@ -27,6 +27,7 @@ import biosimulators_libsbmlsim
 import copy
 import datetime
 import dateutil.tz
+import json
 import os
 import numpy.testing
 import shutil
@@ -308,6 +309,9 @@ class CliTestCase(unittest.TestCase):
         _, log = core.exec_sedml_docs_in_combine_archive(archive_filename, out_dir, config=config)
         if log.exception:
             raise log.exception
+
+        # check that log can be serialized to JSON
+        json.dumps(log.to_json())
 
         results = ReportReader().run(report, out_dir, 'sim.sedml/report', format=report_data_model.ReportFormat.h5)
 
